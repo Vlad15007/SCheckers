@@ -1,18 +1,14 @@
-html {
-  font-size: 14px;
+.game-field {
+    border: 5px solid #ccc;
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    width: 100vh;
+    height: 100vh;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.white-block{
+    background: #eee;
 }
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
+.black-block{
+    background: #000;
 }

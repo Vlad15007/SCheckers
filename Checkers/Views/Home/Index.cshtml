@@ -2,24 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-
+<div class="game-field">
 @for(int i = 0; i < 8; i++)
 {
     @for (int j = 0; j < 8; j++)
     {
         @if ((i + j) % 2 == 0)
         {
-            <span>(Б)</span>
+            <div class="white-block">(Б)</div>
         }
         else
         {
-
-
-
-
-
-            <span>(Ч)</span>
+            <div class="black-block">(Ч)</div>
         }
     }
-    <br />
 }
+</div>
