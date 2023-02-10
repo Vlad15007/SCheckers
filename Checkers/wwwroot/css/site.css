@@ -1,18 +1,30 @@
-html {
-  font-size: 14px;
+.game-field {
+    border: 5px solid #ccc;
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    width: 100vh;
+    height: 100vh;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.white-block{
+    background: #eee;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.white-block:hover{
+    background: #fcf1ae;
 }
 
-body {
-  margin-bottom: 60px;
+.white-block:active{
+    background: #f5e090;
+}
+
+
+
+.black-block{
+    background: #000;
+}
+
+.checkers-size{
+    width: 100%;
+    padding: 12px;
 }
