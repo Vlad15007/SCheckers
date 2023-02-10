@@ -9,6 +9,22 @@
 .white-block{
     background: #eee;
 }
+
+.white-block:hover{
+    background: #fcf1ae;
+}
+
+.white-block:active{
+    background: #f5e090;
+}
+
+
+
 .black-block{
     background: #000;
+}
+
+.checkers-size{
+    width: 100%;
+    padding: 12px;
 }
